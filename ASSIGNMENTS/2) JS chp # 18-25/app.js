@@ -131,7 +131,53 @@
 // document.write("The largest number in the array is: " + largest);
 // document.write("<br>The smallest number in the array is: " + smallest);
 
-// 12
-for(var i=1;i<=20;i++){
-    document.write(i*5+" ");
+// // 12
+// for(var i=1;i<=20;i++){
+//     document.write(i*5+" ");
+// }
+
+// // 14
+// var scores = [12, 45, 3, 22, 34, 50];
+// var a = +prompt("enetr a number");
+// for(var i=0;i<scores.length;i++)
+// {
+//     document.write(scores[i] + " ");
+//     if(a==scores[i]){
+//         break;
+//     }
+// }
+// if(a!==scores[i]){
+//     document.write("not in array");
+// }
+
+// // 15
+// let A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+// for (let i = 0; i < A.length; i++) {
+//     for (let j = 0; j < A[i].length; j++) {
+//         document.write(A[i][j]+"  ");
+//     }
+//     document.write("<br>");
+// }
+
+// // 16
+// var a = +prompt("eneter your number");
+// for (var i = a; i > 0; i -= 0.5) {
+//   document.write(i + "<br>");
+// }
+
+// // 17
+// for (var i = 0; i < 21; i++) {
+//   if (i % 2 == 0) {
+//     document.write(i + ": even<br>");
+//   } else {
+//     document.write(i + ": odd<br>");
+//   }
+// }
+
+// 18
+for (var i = 0; i < 8; i++) {
+  var a = (i += 1);
+  // console.log(i*(i+1));
+  console.log(a*(i));
 }
