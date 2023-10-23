@@ -175,9 +175,71 @@
 //   }
 // }
 
-// 18
-for (var i = 0; i < 8; i++) {
-  var a = (i += 1);
-  // console.log(i*(i+1));
-  console.log(a*(i));
+// // 18
+// // Initialize the product to 1
+// let product = 1;
+
+// // Loop through numbers from 1 to 7
+// for (let num = 1; num <= 7; num++) {
+//     // Check if the number is odd
+//     if (num % 2 === 1) {
+//         // Multiply the product by the odd number
+//         product *= num;
+//     }
+// }
+
+// // Print the final product
+// console.log("The product of odd integers from 1 to 7 is:", product);
+
+// // 19
+
+// for (var i = 7; i >= 1; i--) {
+//   for (var j = 1; j <= i; j++) {
+//     document.write("*");
+//   }
+//   document.write("<br>");
+
+// }
+
+
+
+// // 20(a)
+
+// for (var i = 1; i <= 6; i++) {
+//   for (var j = 1; j <= 6; j++) {
+//     document.write("*");
+//   }
+//   document.write("<br>");
+
+// }
+
+
+
+
+
+// // 20(b)
+
+// for (var i = 1; i <= 6; i++) {
+//   for (var j = 1; j <= i; j++) {
+//     document.write("*");
+//   }
+//   document.write("<br>");
+
+// }
+
+
+
+// 20(c)
+for (var i = 7; i >= 1; i--) {
+  for (var j = 1; j <= i; j++) {
+    document.write("*");
+  }
+  document.write("<br>");
+
 }
+
+
+
+
+// //////////////////////////////// chp # 18-25 ////////////////////////////////////////
+
