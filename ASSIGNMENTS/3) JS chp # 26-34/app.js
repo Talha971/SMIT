@@ -113,16 +113,76 @@
 // var b = new Date() / (60000*60);
 // document.write("<br>minutes " + b);
 
-// 17
+// // 17
+// var a = new Date();
+// var b = a.getHours();
+// if (b <= 12) {
+// document.write("its am");
+// }
+// else{
+// document.write("its pm");
+
+// }
+
+// // 18
+// var a = new Date("2020,11,31");
+// console.log(a);
+
+// // 19
+// var a = new Date("1994,11,11");
+// var c = new Date();
+// var b =  c-a;
+// console.log(Math.floor(b/(60000*60*24)));
+
+// // 20
+// var a = new Date("2014,12,31");
+// var c = new Date("2015,12,5");
+// var b =  c-a;
+// console.log(Math.floor(b/(60000)));
+
+// 21
+// var a = new Date();
+// var b = a.getHours();
+// a.setHours(b - 1);
+// document.write("<br>" + a);
+
+// 22
+// var a = new Date();
+// var b = a.getFullYear();
+// a.setFullYear(b - 100);
+// document.write("<br>" + a);
+
+// // 23
+// var a = new Date();
+// var b = a.getFullYear();
+// console.log(b);
+// var c = +prompt("eneter your age");
+// document.write(b - c);
+
+// 24
 var a = new Date();
-var b = a.getHours();
-if (b <= 12) {
-document.write("its am");
-}
-else{
-document.write("its pm");
-
-}
-
-
-// 18
+var b = a.getMonth();
+var months = [
+  "jan",
+  "feb",
+  "mar",
+  "apr",
+  "may",
+  "jun",
+  "jul",
+  "aug",
+  "sep",
+  "oct",
+  "nov",
+  "dec",
+];
+var d = prompt("eneter your name");
+var e = +prompt("no of units");
+var f = +prompt("charges per units");
+var g = +prompt("late charges");
+document.write("<br>name: " + d);
+document.write("<br>Month: " + months[b]);
+document.write("<br>units: " + e);
+document.write("<br>charges: " + f);
+document.write("<br>net amount within due date: " + e * f);
+document.write("<br>net amount after due date: " + (e * f + g));
